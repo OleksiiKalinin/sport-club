@@ -1,0 +1,15 @@
+.Content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: url("../../assets/images/gym-wallpaper-3.jpg") no-repeat;
+    background-size: 100%, cover;
+    background-color: #dedede;
+    overflow-y: auto;
+}
+
+@media (max-width: 500px) {
+    .Content {
+        background-size: calc(100% - 2px), cover;
+    }
+}

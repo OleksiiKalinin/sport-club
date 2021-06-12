@@ -1,0 +1,36 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #dedede;
+    border-bottom: 1px solid #bebebe;
+}
+
+.HeaderInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    padding: 10px 15px;
+}
+
+.Logo {
+    width: 100%;
+}
+
+.Logo > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .Header {
+        height: 70px;
+    }
+    .HeaderInner {
+        padding: 0;
+    }
+}
